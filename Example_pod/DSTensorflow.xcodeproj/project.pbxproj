@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		131A951720AEA32100A45972 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 131A951620AEA32100A45972 /* AppDelegate.m */; };
+		131A951A20AEA32100A45972 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 131A951920AEA32100A45972 /* ViewController.mm */; };
+		131A951D20AEA32100A45972 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 131A951B20AEA32100A45972 /* Main.storyboard */; };
+		131A951F20AEA32300A45972 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 131A951E20AEA32300A45972 /* Assets.xcassets */; };
+		131A952220AEA32300A45972 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 131A952020AEA32300A45972 /* LaunchScreen.storyboard */; };
+		131A952520AEA32300A45972 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 131A952420AEA32300A45972 /* main.m */; };
+		131ABBF920B004A500A45972 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 131ABBF820B004A400A45972 /* Accelerate.framework */; };
+		3CA2AD3EDD37B027943D9FA4 /* libPods-DSTensorflow.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EF1ACD0471956776486C561 /* libPods-DSTensorflow.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		131A951220AEA32000A45972 /* DSTensorflow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DSTensorflow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		131A951520AEA32100A45972 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		131A951620AEA32100A45972 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		131A951820AEA32100A45972 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		131A951920AEA32100A45972 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		131A951C20AEA32100A45972 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		131A951E20AEA32300A45972 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		131A952120AEA32300A45972 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		131A952320AEA32300A45972 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		131A952420AEA32300A45972 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		131ABBF820B004A400A45972 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		3CCE6EEC6D91229F5DAA7445 /* Pods-DSTensorflow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DSTensorflow.release.xcconfig"; path = "Pods/Target Support Files/Pods-DSTensorflow/Pods-DSTensorflow.release.xcconfig"; sourceTree = "<group>"; };
+		403339968488FE01E209DB5E /* Pods-DSTensorflow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DSTensorflow.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DSTensorflow/Pods-DSTensorflow.debug.xcconfig"; sourceTree = "<group>"; };
+		4EF1ACD0471956776486C561 /* libPods-DSTensorflow.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DSTensorflow.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		131A950F20AEA32000A45972 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				131ABBF920B004A500A45972 /* Accelerate.framework in Frameworks */,
+				3CA2AD3EDD37B027943D9FA4 /* libPods-DSTensorflow.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		131A950920AEA32000A45972 = {
+			isa = PBXGroup;
+			children = (
+				131A951420AEA32100A45972 /* DSTensorflow */,
+				131A951320AEA32000A45972 /* Products */,
+				1866D15A2F7474E048564AC1 /* Pods */,
+				D71B0C95DE05ECA2DA0ED79D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		131A951320AEA32000A45972 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				131A951220AEA32000A45972 /* DSTensorflow.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		131A951420AEA32100A45972 /* DSTensorflow */ = {
+			isa = PBXGroup;
+			children = (
+				131A951520AEA32100A45972 /* AppDelegate.h */,
+				131A951620AEA32100A45972 /* AppDelegate.m */,
+				131A951820AEA32100A45972 /* ViewController.h */,
+				131A951920AEA32100A45972 /* ViewController.mm */,
+				131A951B20AEA32100A45972 /* Main.storyboard */,
+				131A951E20AEA32300A45972 /* Assets.xcassets */,
+				131A952020AEA32300A45972 /* LaunchScreen.storyboard */,
+				131A952320AEA32300A45972 /* Info.plist */,
+				131A952420AEA32300A45972 /* main.m */,
+			);
+			path = DSTensorflow;
+			sourceTree = "<group>";
+		};
+		1866D15A2F7474E048564AC1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				403339968488FE01E209DB5E /* Pods-DSTensorflow.debug.xcconfig */,
+				3CCE6EEC6D91229F5DAA7445 /* Pods-DSTensorflow.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D71B0C95DE05ECA2DA0ED79D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				131ABBF820B004A400A45972 /* Accelerate.framework */,
+				4EF1ACD0471956776486C561 /* libPods-DSTensorflow.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		131A951120AEA32000A45972 /* DSTensorflow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 131A952820AEA32300A45972 /* Build configuration list for PBXNativeTarget "DSTensorflow" */;
+			buildPhases = (
+				FB056467E3107A2A2EDFEFF1 /* [CP] Check Pods Manifest.lock */,
+				131A950E20AEA32000A45972 /* Sources */,
+				131A950F20AEA32000A45972 /* Frameworks */,
+				131A951020AEA32000A45972 /* Resources */,
+				7698751B0B6EEA4F85407785 /* [CP] Embed Pods Frameworks */,
+				F57C9FF2CE4464FF12148BD7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DSTensorflow;
+			productName = DSTensorflow;
+			productReference = 131A951220AEA32000A45972 /* DSTensorflow.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		131A950A20AEA32000A45972 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = dasheng;
+				TargetAttributes = {
+					131A951120AEA32000A45972 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 131A950D20AEA32000A45972 /* Build configuration list for PBXProject "DSTensorflow" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 131A950920AEA32000A45972;
+			productRefGroup = 131A951320AEA32000A45972 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				131A951120AEA32000A45972 /* DSTensorflow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		131A951020AEA32000A45972 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				131A952220AEA32300A45972 /* LaunchScreen.storyboard in Resources */,
+				131A951F20AEA32300A45972 /* Assets.xcassets in Resources */,
+				131A951D20AEA32100A45972 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7698751B0B6EEA4F85407785 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DSTensorflow/Pods-DSTensorflow-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F57C9FF2CE4464FF12148BD7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DSTensorflow/Pods-DSTensorflow-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB056467E3107A2A2EDFEFF1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DSTensorflow-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		131A950E20AEA32000A45972 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				131A951A20AEA32100A45972 /* ViewController.mm in Sources */,
+				131A952520AEA32300A45972 /* main.m in Sources */,
+				131A951720AEA32100A45972 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		131A951B20AEA32100A45972 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				131A951C20AEA32100A45972 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		131A952020AEA32300A45972 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				131A952120AEA32300A45972 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		131A952620AEA32300A45972 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		131A952720AEA32300A45972 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		131A952920AEA32300A45972 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 403339968488FE01E209DB5E /* Pods-DSTensorflow.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HCEBR7QX9T;
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/DSTensorflow\"",
+				);
+				INFOPLIST_FILE = DSTensorflow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DSTensorflow",
+					"$(PROJECT_DIR)/DSTensorflow/SDK",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"DSTensorflow\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dasouche.DSTensorflow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		131A952A20AEA32300A45972 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CCE6EEC6D91229F5DAA7445 /* Pods-DSTensorflow.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HCEBR7QX9T;
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/DSTensorflow\"",
+				);
+				INFOPLIST_FILE = DSTensorflow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DSTensorflow",
+					"$(PROJECT_DIR)/DSTensorflow/SDK",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"DSTensorflow\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dasouche.DSTensorflow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		131A950D20AEA32000A45972 /* Build configuration list for PBXProject "DSTensorflow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				131A952620AEA32300A45972 /* Debug */,
+				131A952720AEA32300A45972 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		131A952820AEA32300A45972 /* Build configuration list for PBXNativeTarget "DSTensorflow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				131A952920AEA32300A45972 /* Debug */,
+				131A952A20AEA32300A45972 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 131A950A20AEA32000A45972 /* Project object */;
+}

@@ -1,0 +1,16 @@
+PODS:
+  - DSTensorflow (0.1.0)
+
+DEPENDENCIES:
+  - DSTensorflow (from `../`)
+
+EXTERNAL SOURCES:
+  DSTensorflow:
+    :path: ../
+
+SPEC CHECKSUMS:
+  DSTensorflow: 45ac4f06da7669a1a2af75247bd75f131e7c9c99
+
+PODFILE CHECKSUM: 03b576ab0f76317f6512216add50a862e142b8ca
+
+COCOAPODS: 1.4.0
